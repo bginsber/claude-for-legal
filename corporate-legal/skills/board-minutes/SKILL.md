@@ -240,9 +240,13 @@ For drafting written consents in lieu of a meeting, use `/corporate-legal:writte
 
 ---
 
+## Working from notes someone already took
+
+This skill drafts *forward* from an agenda and materials. If you instead have raw notes someone took *during* the meeting — handwritten minutes, a dictation transcript, a secretary's shorthand — start with `/corporate-legal:minutes-transcription`. That skill produces a faithful formal transcript (flagging anything illegible or ambiguous rather than guessing) and a summary, then hands the confirmed content back here for reformatting into adopted-minutes house format. Fidelity to the notes first, fidelity to house format second.
+
 ## What this skill does not do
 
-- It does not attend the meeting or capture real-time discussion — it drafts from materials and attorney input.
+- It does not attend the meeting or capture real-time discussion — it drafts from materials and attorney input. For raw notes already taken during a meeting, use `/corporate-legal:minutes-transcription` first.
 - It does not determine whether a resolution is legally valid or sufficient — it drafts in house format; legal judgment on adequacy is the attorney's call.
 - It does not finalize minutes — the draft requires attorney review before circulation.
 - It does not distribute minutes — output is for the attorney to review, edit, and circulate via their own process.
